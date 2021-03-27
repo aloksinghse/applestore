@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="%PUBLIC_URL%/toastr.css" rel="stylesheet"/>
+
+     <script src="%PUBLIC_URL%/toastr.js"></script>
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <style>
+      @media all and (display-mode: fullscreen) {
+        #secondary{
+          background-color:rgba(244,244,244,0.8);
+          margin:8px;
+          position:fixed;
+          top:20vh;
+          right:0px;
+          max-height:60vh;
+          padding:10px;
+          overflow-y:scroll;
+          opacity:0%;
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;
+        }
+        #secondary:hover{
+          opacity:100%
+        }
+        #secondary::-webkit-scrollbar {
+          display: none;
+        }
+      }
+
+      #secondary{
+        max-height:100%;
+        overflow-y:scroll
+      }
+    </style>
+  </body>
+</html>
